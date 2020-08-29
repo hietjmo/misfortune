@@ -1,0 +1,4 @@
+
+file="mistune"; espeak -f $file.txt -w $file.wav; ffmpeg -y -i $file.wav -f mp3 $file.mp3; rm $file.wav
+
+
